@@ -117,6 +117,60 @@ fmt.Println(result.Value)
 fmt.Println(result.FloatCastedValue)
 ```
 
+## Operators Support
+
+### Mathematical operations
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Addition|`+`|`var1 + var2`|
+|Substraction|`-`| `var1 - var2`|
+|Multiplication|`*`|`var1 * var2`|
+|Division|`/`|`var1 / var2`|
+
+### Bitwise operations
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Shift right|`>>`|`var1 >> var2`|
+|Shift Left|`<<`|`var1 << var2`|
+|AND|`&`|`var1 & var2`|
+|OR|`\|`|`var1 \| var2`|
+|XOR|`^`|`var1 ^ var2`|
+
+### Logical operations
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Equal|`==`| `var1 == var2`|
+|Not Equal|`!=`| `var1 != var2`|
+|Logical And|`&&`| `var1 && var2`|
+|Logical Or|`\|\|`| `var1 \|\| var2`|
+|Greater Than or Equal|`>=`| `var1 >= var2`|
+|Lesser Than or Equal|`<=`| `var1 <= var2`|
+|Greater Than|`>`|`var1 > var2`|
+|Lesser Than|`<`|`var1 < var2`|
+
+### Unary
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Logical Negation|`!`|`!bool_var1`|
+|Negation|`-`|`-var1`|
+
+### Parenthesis
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Parenthesis|`()`|`((var1 + var2) * (var1 - var2)) / 2`|
+
+### Assignment
+
+|Name|Operator|Sample|
+| -------- | ------- | -------- |
+|Assignment|`=`|`var3 = var1 + var2`|
+
+
 ## Acknowledgements
 
 This package is built based on the [Immo Landwerth](https://github.com/terrajobst)'s tutorial on [youtube](https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y). Many thanks to him for making such a great content.
